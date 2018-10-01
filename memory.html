@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>"Мемори" с импрессионистами</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ <center><div class="startpage"><section id="one"><img class="imgstart" src="img/start.png"><h1> "Мемори" <br> с Ван Гогом, Моне и Ренуаром</h1> <br> <p>Запомните лучшие картины импрессионистов</p> <br>
+ <button class="button" id=btn>ИГРАТЬ</button>
+</section></div></center>
+ <section id="two" style="display:none">
+   <section id="memory-game" class="memory-game">
+     <div class="memory-card" data-framework="vangogh">
+       <img class="front-face" src="img/vangogh.jpg" alt="VanGogh" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+     <div class="memory-card" data-framework="vangogh">
+       <img class="front-face" src="img/vangogh.jpg" alt="vangogh" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+
+     <div class="memory-card" data-framework="monet">
+       <img class="front-face" src="img/monet.jpg" alt="Monet" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+     <div class="memory-card" data-framework="monet">
+       <img class="front-face" src="img/monet.jpg" alt="Monet" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+
+     <div class="memory-card" data-framework="degas">
+       <img class="front-face" src="img/degas.jpg" alt="Degas" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+     <div class="memory-card" data-framework="degas">
+       <img class="front-face" src="img/degas.jpg" alt="Degas" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+
+     <div class="memory-card" data-framework="renoir">
+       <img class="front-face" src="img/renoir.jpg" alt="Renoir" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+     <div class="memory-card" data-framework="renoir">
+       <img class="front-face" src="img/renoir.jpg" alt="Renoir" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+
+     <div class="memory-card" data-framework="signac">
+       <img class="front-face" src="img/signac.jpg" alt="Signac" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+     <div class="memory-card" data-framework="signac">
+       <img class="front-face" src="img/signac.jpg" alt="Signac" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+
+     <div class="memory-card" data-framework="russo">
+       <img class="front-face" src="img/russo.jpg" alt="Russo" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+     <div class="memory-card" data-framework="russo">
+       <img class="front-face" src="img/russo.jpg" alt="Russo" />
+       <img class="back-face" src="img/1.jpeg" alt="1" />
+     </div>
+   </section>
+   <center>
+ <button class="button" onclick="location.reload()">НА ГЛАВНУЮ</button>
+ </center>
+ </section>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
